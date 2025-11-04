@@ -1,10 +1,11 @@
 ﻿using AccountingForPersonalFinances.Application.Common.Exceptions;
-using AccountingForPersonalFinances.Application.Interfaces;
 using AccountingForPersonalFinances.Application.Transactions.Command.CreateTransaction;
 using AccountingForPersonalFinances.Application.Wallets.Queries.GetCurrentBalance;
+using AccountingForPersonalFinances.Presentation.Controllers.Interfaces;
+using AccountingForPersonalFinances.Presentation.Views.Intrefaces;
 using MediatR;
 
-namespace AccountingForPersonalFinances.Application.Presenters
+namespace AccountingForPersonalFinances.Presentation.Presenters
 {
     public class MakeTransactionPresenter : BasePresenter<IMakeTransactionView, Guid>
     {

@@ -1,9 +1,9 @@
-using AccountingForPersonalFinances.Application.Interfaces;
 using AccountingForPersonalFinances.Application.Transactions.Queries.GetBiggestExpenses;
 using AccountingForPersonalFinances.Application.Transactions.Queries.GetTotalAmouns;
 using AccountingForPersonalFinances.Application.Transactions.Queries.GetTransactionList;
 using AccountingForPersonalFinances.Application.Wallets.Queries.GetWalletList;
 using AccountingForPersonalFinances.Domain.Models.Dictionaries;
+using AccountingForPersonalFinances.Presentation.Views.Intrefaces;
 
 namespace AccountingForPersonalFinances.Presentation
 {

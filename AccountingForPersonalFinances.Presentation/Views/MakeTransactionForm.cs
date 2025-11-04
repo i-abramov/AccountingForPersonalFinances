@@ -1,5 +1,5 @@
-﻿using AccountingForPersonalFinances.Application.Interfaces;
-using AccountingForPersonalFinances.Domain.Models.Enums;
+﻿using AccountingForPersonalFinances.Domain.Models.Enums;
+using AccountingForPersonalFinances.Presentation.Views.Intrefaces;
 
 namespace AccountingForPersonalFinances.Presentation.Views
 {

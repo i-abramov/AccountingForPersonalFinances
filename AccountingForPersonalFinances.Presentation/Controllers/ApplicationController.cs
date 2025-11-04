@@ -1,7 +1,8 @@
-﻿using AccountingForPersonalFinances.Application.Interfaces;
+﻿using AccountingForPersonalFinances.Presentation.Controllers.Interfaces;
+using AccountingForPersonalFinances.Presentation.Presenters.Interfaces;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace AccountingForPersonalFinances.Application.Controllers
+namespace AccountingForPersonalFinances.Presentation.Controllers
 {
     public class ApplicationController : IApplicationController
     {

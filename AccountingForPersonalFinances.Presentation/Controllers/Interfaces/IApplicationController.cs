@@ -1,4 +1,6 @@
-﻿namespace AccountingForPersonalFinances.Application.Interfaces
+﻿using AccountingForPersonalFinances.Presentation.Presenters.Interfaces;
+
+namespace AccountingForPersonalFinances.Presentation.Controllers.Interfaces
 {
     public interface IApplicationController
     {

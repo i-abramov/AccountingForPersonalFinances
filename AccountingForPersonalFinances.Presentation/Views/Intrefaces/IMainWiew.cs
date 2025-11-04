@@ -3,7 +3,7 @@ using AccountingForPersonalFinances.Application.Transactions.Queries.GetTotalAmo
 using AccountingForPersonalFinances.Application.Transactions.Queries.GetTransactionList;
 using AccountingForPersonalFinances.Application.Wallets.Queries.GetWalletList;
 
-namespace AccountingForPersonalFinances.Application.Interfaces
+namespace AccountingForPersonalFinances.Presentation.Views.Intrefaces
 {
     public interface IMainView : IView
     {

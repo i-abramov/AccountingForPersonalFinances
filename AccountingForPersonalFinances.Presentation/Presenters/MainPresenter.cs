@@ -1,14 +1,15 @@
 ﻿using AccountingForPersonalFinances.Application.Common.Exceptions;
-using AccountingForPersonalFinances.Application.Interfaces;
 using AccountingForPersonalFinances.Application.Transactions.Queries.GetBiggestExpenses;
 using AccountingForPersonalFinances.Application.Transactions.Queries.GetTotalAmouns;
 using AccountingForPersonalFinances.Application.Transactions.Queries.GetTransactionList;
 using AccountingForPersonalFinances.Application.Wallets.Queries.GetCurrentBalance;
 using AccountingForPersonalFinances.Application.Wallets.Queries.GetWalletList;
 using AccountingForPersonalFinances.Domain.Models.Dictionaries;
+using AccountingForPersonalFinances.Presentation.Controllers.Interfaces;
+using AccountingForPersonalFinances.Presentation.Views.Intrefaces;
 using MediatR;
 
-namespace AccountingForPersonalFinances.Application.Presenters
+namespace AccountingForPersonalFinances.Presentation.Presenters
 {
     public class MainPresenter : BasePresenter<IMainView>
     {

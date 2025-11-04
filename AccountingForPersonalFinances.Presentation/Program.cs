@@ -1,10 +1,11 @@
 using AccountingForPersonalFinances.Application;
 using AccountingForPersonalFinances.Application.Common.Mappings;
-using AccountingForPersonalFinances.Application.Controllers;
 using AccountingForPersonalFinances.Application.Interfaces;
-using AccountingForPersonalFinances.Application.Presenters;
 using AccountingForPersonalFinances.Persistence;
+using AccountingForPersonalFinances.Presentation.Controllers;
+using AccountingForPersonalFinances.Presentation.Presenters;
 using AccountingForPersonalFinances.Presentation.Views;
+using AccountingForPersonalFinances.Presentation.Views.Intrefaces;
 using AutoMapper;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;

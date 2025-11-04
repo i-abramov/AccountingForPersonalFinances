@@ -1,6 +1,8 @@
-﻿using AccountingForPersonalFinances.Application.Interfaces;
+﻿using AccountingForPersonalFinances.Presentation.Controllers.Interfaces;
+using AccountingForPersonalFinances.Presentation.Presenters.Interfaces;
+using AccountingForPersonalFinances.Presentation.Views.Intrefaces;
 
-namespace AccountingForPersonalFinances.Application.Presenters
+namespace AccountingForPersonalFinances.Presentation.Presenters
 {
     public abstract class BasePresenter<TView> : IPresenter
         where TView : IView

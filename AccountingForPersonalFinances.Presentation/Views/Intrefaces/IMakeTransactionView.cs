@@ -1,6 +1,6 @@
 ﻿using AccountingForPersonalFinances.Domain.Models.Enums;
 
-namespace AccountingForPersonalFinances.Application.Interfaces
+namespace AccountingForPersonalFinances.Presentation.Views.Intrefaces
 {
     public interface IMakeTransactionView : IView
     {

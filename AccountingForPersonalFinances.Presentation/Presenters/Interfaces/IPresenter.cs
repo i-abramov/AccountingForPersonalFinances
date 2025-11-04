@@ -1,4 +1,4 @@
-﻿namespace AccountingForPersonalFinances.Application.Interfaces
+﻿namespace AccountingForPersonalFinances.Presentation.Presenters.Interfaces
 {
     public interface IPresenter
     {

@@ -1,4 +1,4 @@
-﻿namespace AccountingForPersonalFinances.Application.Interfaces
+﻿namespace AccountingForPersonalFinances.Presentation.Views.Intrefaces
 {
     public interface IView
     {
